@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "my-social-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#394467"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAZv5czqJS_HE97JG_DlvnmPj5BdMU_8S8"
+        }
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "package": "com.ihorkaren.mysocialapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e62a94c8-b289-4032-8b7a-4daf8ab7209c"
+      }
+    },
+    "owner": "mboy75"
+  }
+}
