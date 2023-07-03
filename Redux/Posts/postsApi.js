@@ -14,7 +14,7 @@ import { db } from "../../config";
 export const postsApi = createApi({
   reducerPath: "postsApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://massi-app-default-rtdb.europe-west1.firebasedatabase.app",
+    baseUrl: "https://fake",
   }),
   tagTypes: ["Posts", "Comments"],
   endpoints: (builder) => ({
